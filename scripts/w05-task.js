@@ -62,9 +62,10 @@ const sortBy = (temples) => {
     }
 };
 
-getTemples();
 
 /* Event Listener */
 document.querySelector("#sortBy").addEventListener("change", () => {
     sortBy(templeList);
 });
+
+getTemples();
